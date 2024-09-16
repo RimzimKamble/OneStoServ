@@ -1,0 +1,134 @@
+/* Form container styling */
+[nz-form] {
+    max-width: 800px;
+}
+
+/* Phone select */
+.phone-select {
+    width: 70px;
+}
+
+/* Child container styling */
+.child {
+    padding: 50px;
+    position: absolute;
+    width: 680px;
+    background-color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 1px 1px 15px -7px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    margin-bottom: 22px;
+}
+
+/* Form control */
+nz-form-control {
+    min-width: 280px;
+}
+
+/* Parent container styling */
+.parent {
+    width: 100%;
+    min-height: 90vh;
+    position: relative;
+}
+
+/* Star rating styling */
+.nz-rate .ant-rate-star-full, 
+.nz-rate .ant-rate-star-half, 
+.nz-rate .ant-rate-star-zero {
+    font-size: 24px; /* Larger size for the stars */
+    color: #8c8c8c; /* Initial dark grey for stars */
+}
+
+/* Active (filled) stars after rating */
+.nz-rate .ant-rate-star-full .ant-rate-star-first, 
+.nz-rate .ant-rate-star-full .ant-rate-star-second,
+.nz-rate .ant-rate-star-half .ant-rate-star-first, 
+.nz-rate .ant-rate-star-half .ant-rate-star-second {
+    color: #fadb14 !important; /* Yellow after rating */
+}
+.nz-rate {
+    // font-size: 24px; /* Larger size for the stars */
+    // color: #fadb14;  /* Bright yellow for visibility */
+    margin-bottom: 16px; /* Space between the stars and the submit button */
+}
+
+/* Form margins */
+.login-form-margin {
+    margin-bottom: 16px;
+}
+
+/* Forgot password link alignment */
+.login-form-forgot {
+    float: right;
+}
+
+/* Button styling */
+.login-form-button {
+    width: 100%;
+}
+
+/* General button styling */
+button {
+    background-color: #001529; /* Dark blue color */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #002c45; /* Slightly lighter shade of blue for hover effect */
+}
+
+/* Image icon styling */
+#add_img_icon {
+    width: 70px;
+    height: 35px;
+    position: relative;
+    left: 118px;
+    top: -42px;
+}
+
+/* Image div styling */
+.imgDiv {
+    width: 100%;
+    text-align: center;
+}
+
+/* Profile badge */
+.profile-badge {
+    height: 180px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: auto;
+}
+
+/* Register area */
+.register-are {
+    margin-bottom: 8px;
+}
+
+/* Responsive media query for mobile */
+@media only screen and (max-width: 600px) {
+    .profile-badge {
+        margin-left: 0px;
+    }
+}
+
+/* Profile image styling */
+.profile {
+    height: 180px;
+    margin-bottom: 5px;
+    object-fit: cover;
+}
+
+/* Hide upload profile image */
+#upload_profile_image {
+    display: none;
+}
